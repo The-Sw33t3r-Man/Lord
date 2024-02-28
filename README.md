@@ -40,6 +40,7 @@ This question does include a complexity mark based on the design and content you
 
 Your testing must:
 
+- Be correctly included (correctly labelled) in the _testing.md_ file in the appropriate folder.
 - Be both cross-browser and cross-platform.
 - Include HTML validation results for both pages, showing your HTML is valid.
 - Illustrate any "state" changes, like hover.
