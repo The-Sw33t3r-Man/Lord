@@ -38,7 +38,16 @@ For cohesion, you can choose to carry this design style over to the first page a
 
 This question does include a complexity mark based on the design and content you choose.
 
+Your testing must:
+
+- Be both cross-browser and cross-platform.
+- Include HTML validation results for both pages, showing your HTML is valid.
+- Illustrate any "state" changes, like hover.
+- Include proof of accessibility testing.
+
 ## Part II - Scripting with JavaScript Core
+
+In this section your going to write several small javascript functions to practice with javascript core programming (basically just using javascript as a normal scripting language). For each section you can hardcode input values, and all output should go to console (we'll worry about the actual web page on Assignment 4). Your testing should follow what you learned in 1020, and test a reasonable number of cases to illustrate that your code works.
 
 ### Leap Years
 
@@ -58,7 +67,7 @@ Call the function and with the result use a string template literal to print out
 
 Write a function that accepts a number (the height of the pyramid), and creates an array of strings where each string represents a level in the pyramid. Each block in the pyramid is represented by the `@` character. The array should be returned from the function and printed to the console.
 
-So for example a pyramid of `3`` levels would look like:
+So for example a pyramid of `3` levels would look like:
 
 ```shell
 [
@@ -68,7 +77,7 @@ So for example a pyramid of `3`` levels would look like:
 ]
 ```
 
-and a pyramid with `5`` levels would look like:
+and a pyramid with `5` levels would look like:
 
 ```shell
 [
@@ -86,9 +95,8 @@ Write a function that accepts a string and return the string with the first lett
 
 ### Even Numbers
 
-Create a function that determines if a provided number is even.  Define an array of numbers, then on the array use the appropriate array iterator to determine if the array contains only even numbers using the function you defined. Output the results, and test with several arrays.
+Create a function that determines if a provided number is even. Define an array of numbers, then on the array use the appropriate array iterator to determine if the array contains only even numbers using the function you defined. Output the results, and test with several arrays.
 
 ### Long Names
 
-Define an array of names.  Use an iterator to retrieve a new array containing only the names longer then 12 characters. Your iterator should be passed an anonymous arrow function.
-
+Define an array of names. Use an iterator to retrieve a new array containing only the names longer then 12 characters. Your iterator should be passed an anonymous arrow function.
