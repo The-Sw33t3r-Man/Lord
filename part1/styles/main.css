@@ -22,12 +22,18 @@ time, mark, audio, video {
 
 
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px; 
     line-height: 1.6;
     background-color: #9A7B4F;
     padding: 20px;
+    color: #000000
 }
+
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;}
+
 
 header {
     background-color: #333;
@@ -138,3 +144,42 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+
+/* New styles for testimonials */
+
+.testimonial {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px; color: #000000;
+    background: #9A7B4F;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+.profile-pic {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+
+.image-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center images vertically */
+}
+
+.image-container img {
+    margin-right: 10px; /* Add space between the images */
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
